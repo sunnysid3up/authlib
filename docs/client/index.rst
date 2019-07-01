@@ -6,7 +6,7 @@ This part of the documentation contains information on the client parts. For
 
 Here is a simple overview of Flask OAuth client::
 
-    from flask import Flask, jsonify
+    from flask import Flask, jsonify, url_for
     from authlib.flask.client import OAuth
 
     app = Flask(__name__)
